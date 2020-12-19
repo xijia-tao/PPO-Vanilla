@@ -15,6 +15,14 @@ The repository contains a simple implementation of PPO using PyTorch, based on t
 
 ![](/assets/pseudocode.png)
 
+## Usage
+
+In short:
+
+- `python main.py` from command line if you wish to train the agent from scratch.
+- Change `train` to `test` and specify the directory of your actor network (`ppo_actor.pth` by default) in `args.py` if you wish to evaluate the performance of your agent visually. Then run `main.py`
+- Specify the directory of both your actor and policy networks if you wish to continue training an existing PPO model. Then run `main.py`.
+
 ## Results
 
 ![](/assets/train.png)
