@@ -21,4 +21,4 @@ The repository contains a simple implementation of PPO using PyTorch, based on t
 
 The average episodic return converges to approx. -200 after 3,000,000 timesteps. The performance is comparable to the stable baseline of PPO2 given sufficient number of iterations.
 
-![Demo: RL Agent on Pendulum-v0 After Training](\assets\ppo_pendulum.gif)
+![Demo: RL Agent on Pendulum-v0 After Training](/assets/ppo_pendulum.gif)
